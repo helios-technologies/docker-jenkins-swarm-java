@@ -16,7 +16,7 @@ RUN yum install -y \
 # Jenkins Slave setup
 #
 ENV HOME=/home/jenkins-slave \
-    JENKINS_SWARM_VERSION=2.2 \
+    JENKINS_SWARM_VERSION=3.4 \
     JENKINS_SWARM_JAR_PATH=/usr/share/jenkins
 ENV JENKINS_SWARM_JAR=$JENKINS_SWARM_JAR_PATH/swarm-client-${JENKINS_SWARM_VERSION}-jar-with-dependencies.jar
 
