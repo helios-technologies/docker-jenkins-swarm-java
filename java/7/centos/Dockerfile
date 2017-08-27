@@ -34,7 +34,7 @@ RUN curl -sSLo /usr/share/maven.tar.gz \
 # Install Jenkins Swarm
 #
 ENV HOME /home/jenkins-slave
-ENV JENKINS_SWARM_VERSION=2.2
+ENV JENKINS_SWARM_VERSION=3.4
 ENV JENKINS_SWARM_JAR_PATH /usr/share/jenkins
 ENV JENKINS_SWARM_JAR $JENKINS_SWARM_JAR_PATH/swarm-client-$JENKINS_SWARM_VERSION-jar-with-dependencies.jar
 
